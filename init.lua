@@ -20,8 +20,9 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
--- line numbers (relative)
+-- line numbers
 vim.wo.relativenumber = true
+vim.wo.number = true
 
 -- tabs
 vim.o.tabstop = 4
