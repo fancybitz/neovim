@@ -11,8 +11,13 @@ return {
 			{
 				'<C-e>',
 				'<cmd>Neotree source=filesystem reveal=true position=left toggle=true<CR>',
-				desc = "Toggle Neotree"
-			}
+				desc = "Neotree"
+			},
+            {
+                '<C-r>',
+                '<cmd>Neotree focus<CR>',
+                desc = "Neotree focus"
+            }
 		}
 	end,
     config = function() 
